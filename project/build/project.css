@@ -107,9 +107,11 @@ nav{
 
 /* ||GRID */
 .grid{
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 0.5fr);
+    grid-template-columns: repeat(2, 0.5fr);
     padding-left: 2rem;
+    column-gap: 1rem;
+    justify-content: space-evenly;
 }
 
 .item1{
@@ -118,4 +120,10 @@ nav{
 
 .item2{
     font-size: 16px;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+}
+
+.item5{
+   grid-column: span 2;
 }
