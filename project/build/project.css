@@ -194,13 +194,6 @@ nav{
 
 
 /* HARMBURGER BUTTON */
-#hamburger-button:hover,
-#hamburger-button:focus::before{
-   
-    transform: rotateX('45deg');
-}
-
-#hamburger-button:hover,
-#hamburger-button:focus::after{
-    transform: rotateX('-45deg');
+.menu-button::before{
+    
 }
