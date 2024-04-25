@@ -16,7 +16,12 @@ body{
     min-height: 100vh;
     display: flex;
     flex-flow: column nowrap;
+
 }
+
+/* MEDIA */
+
+
 @media (prefers-color-scheme:dark){
     header{
         background-color: rgb(29, 176, 176);
