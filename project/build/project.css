@@ -193,21 +193,7 @@ nav{
 }
 
 
-/* HARMBURGER BUTTON */
-.menu-button,
-.menu-button::before,
-.menu-button::after{
-    transition: all 2s 0.5s ease-in-out;
+h3{
+    text-decoration:underline solid hsl(326, 62%, 35%) ;
 }
 
-.menu-button::before{
-    transform: translateY(8px);
-    transform:rotateX(45deg)
-}
-
-.menu-button::after{
-    transform: translateY(-8px);
-    transform: rotateX(-45deg);
-}
-
-/* ||FOOTER */
