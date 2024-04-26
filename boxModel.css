@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Sedan";
+    font-size: 32px;
+    min-height: 100vh; /* so as to be able to scroll the page */
+    padding: 20px;
+}
+
+
+
+.container{
+    max-width: 800px;
+    min-height: 400px;
+    margin-inline: auto;
+    border: 1px solid #000;
+    display:flex;
+    /* gap: 2rem; */
+    justify-content: space-evenly;
+    
+
+}
+
+.box{
+    min-width: 80px;
+    height: 80px;
+    background-color: burlywood;
+    color: antiquewhite;
+    padding: 0.5rem;
+}
+
+/* .outer-container{
+    border: 3px dashed #000;
+    width:75vw;
+    height: 85vh;
+    margin: 40px auto;
+    position: relative;
+}
+
+.inner-container{
+    border: 2px solid #0000ff;
+    width: 40vw;
+    height: 50vh;
+    margin: 100px auto;
+}
+ */
+/* .box{
+    width: 150px;
+    height: 150px;
+    color:rgb(34, 6, 61);
+    padding: 1rem;
+    
+}
+
+.absolute{
+    background-color: crimson;
+    color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.relative{
+    background-color:brown;
+    position: relative;
+    top: 200px;
+    left: 360px;
+}
+
+.fixed{
+    background-color: coral;
+    position: fixed;
+    top: 100px;
+    left:260px;
+}
+
+.sticky{
+    background-color: #584545;
+    position: sticky;
+    top: 0px;
+} */
+
+
+/* input, button{
+    font-size: inherit;
+} */
+
+/* *{
+    box-sizing: border-box;
+} */
+
+/* .container{
+    border: 2px dashed aliceblue;
+    padding: 0.5em;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.circle{
+    margin: 3rem auto;
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    outline: 2px solid red;
+    outline-offset: 0.25rem;
+} */
+

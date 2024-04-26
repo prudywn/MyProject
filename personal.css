@@ -1,0 +1,200 @@
+/* body{
+    
+    background-image: url('../img/dating.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-clip: border-box;
+}    */
+
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*UTILITY*/
+/* .nowrap{
+    white-space: nowrap;
+} */
+
+
+/*GENERAL STYLES*/
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font: 20px "Sedan", monospace;
+    min-height: 100vh;
+
+    background-color: blanchedalmond;
+    background-image: radial-gradient(rgb(230, 222, 222), #9c7979);
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer{
+    position: sticky;
+    background-color: rgb(227, 210, 187);
+    color: rgb(3, 31, 20);
+    text-align: center;
+}
+
+header{
+    top: 0;
+}
+
+nav{
+    background-color: rgb(198, 159, 190,0.4);
+    padding: 0.5rem;
+    border-bottom: 2px solid #000;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+nav a, nav a:visited{
+    color: rgb(157, 89, 222);
+}
+
+nav a:hover,
+nav a:focus{
+    color: rgb(113, 34, 152);
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1.5rem;
+    padding:1rem;
+
+}
+
+/*PROFILE CARD*/
+.card{
+   scroll-margin-top: 8rem; 
+   width: min(100%, 350px);
+   background-color: papayawhip;
+   border:2px solid #000;
+   border-radius: 15px;
+   padding: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+  
+}
+
+.card figure{
+    display:flex;
+    flex-flow:column nowrap;
+}
+
+.card img{
+    border: 5px double rgb(112, 112, 112);
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.card figcaption{
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+
+
+footer{
+    bottom:0;
+}
+
+/*SMALL*/
+@media screen and (min-width: 576px) {
+    main{
+        justify-content: center;
+        flex-flow: row wrap;
+        padding: 1rem;
+    }
+    .card{
+        width: min(100%, 400px)
+    }
+    
+    .card:last-child{
+        order: -1;
+    }
+}
+
+/*MEDIUM*/
+@media screen and(min-width:768px){
+    nav{
+        display:none;
+    }
+    .card{
+        width: min(100%, 325px);
+    }
+    .card figure{
+        flex-flow:column-reverse;
+    }
+
+    .card p{
+        margin-top: 1rem;
+    }
+
+/*LARGE*/
+}
+
+@media screen and (min-width: 992px){
+    .card{
+        width: min(100%, 400px)
+    }
+
+    .card:nth-child(2){
+        order:-1
+    }
+
+}
+/*XL*/
+
+@media screen and (min-width: 1200px){
+    .card{
+        width:min(calc(33% - 1rem), 500px);
+    }
+
+}
+
+/*LANDSCAPE*/
+@media screen and (max-height:425px) and (min-aspect-ratio: 7/4){
+    h1{
+        font-size: 1.5rem;
+    }
+
+    nav{
+        display:none;
+    }
+
+    main{
+        flex-flow:row nowrap;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+
+    .card{
+        width:min(calc(33% - 0.25rem), 200px)
+    }
+
+    .card figcaption, .card p{
+        font-size: 1.25rem;
+    }
+}
