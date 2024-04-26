@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" class="sm:scroll-smooth">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Prudence">
+        <meta name="description" content="WebDevelopment">
+        <title>A Little About Me</title>
+        <link rel="stylesheet" href="./project.css">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="./Img/heart.jpg">
+        <script src="js/main.js" defer></script>
+    </head>
+
+    <body class="dark:bg-black dark:text-purple-500 min-h-screen">
+
+        <header class=" text-white sticky top-0 z-10 ">
+            <section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
+                <h1 class="text-3xl font-bold ">
+                    <a href="#hero">👑Prudence Ngigi</a>
+                </h1>
+                <div>
+                    <button id="hamburger-button" class=" text-2xl md:hidden cursor-pointer relative w-8 h-8 ">
+                        <div
+                            class="menu-button bg-white w-8 h-1 rounded absolute top-4 -mt-0.5 transition-all duration-500 before:content-[''] before:bg-white before:w-8 before:h-1 before:rounded before:absolute before:-translate-x-4 before:-translate-y-3 before:transition-all before:duration-500 after:content-[''] after:bg-white after:w-8 after:h-1 after:rounded after:absolute after:-translate-x-4 after:translate-y-3 after:transition-all after:duration-500">
+                        </div>
+
+                    </button>
+                    <nav class="hidden md:flex  space-x-4 text-xl" aria-label="main">
+                        <a href="#projects">Projects Done</a>
+                        <a href="#about">About Me</a>
+                        <a href="#contact">Contact Me</a>
+                        <a href="#socials">Socials</a>
+                    </nav>
+                </div>
+            </section>
+
+            <section id="mobile-menu"
+                class="absolute top-68 bg-black w-full text-3xl flex-col justify-center origin-top animate-open-menu hidden ">
+                <nav class="flex flex-col min-h-screen item-center" aria-label="mobile">
+                    <a href="#projects" class="w-full text-center mb-2">Projects Done</a>
+                    <a href="#about" class="w-full text-center mb-2">About Me</a>
+                    <a href="#contact" class="w-full text-center mb-2">Contact Me</a>
+                    <a href="#socials" class="w-full text-center mb-2">Socials</a>
+                </nav>
+
+            </section>
+
+        </header>
+
+        <main class="mx-auto">
+            <section id="hero"
+                class="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 scroll-mt-40 widescreen:section-min-height tallscreen:section-min-height">
+                <article>
+                    <h2
+                        class="max-w-md text-3xl font-bold text-center sm:text-4xl sm:text-left text-slate-800 dark:text-orange-200">
+                        The Journey Of A Thousand Miles Begins With <span class="dark:text-indigo-700 text-purple-500">A
+                            Single Step</span></h2>
+                    <p class="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">I
+                        Believe In Living One Day At Time!</p>
+                </article>
+
+                <img src="./Img/hope.jpg" alt="It Is In The Storm When We are Formed" class="w-1/2"
+                    title="We Are Created For One Another">
+
+            </section>
+            <hr>
+            <section id="projects" class="id">
+                <dl class="text-slate-200 dark:text-gray-300 text-xl m-4">
+                    <dt><b>HTML Project</b></dt>
+                    <dd class="p-2">
+                        <a class="hover:opacity-60" href="https://github.com/prudywn/HTMLFinal.git">@htmlProject</a>
+                        <p>This is my final HTML project it applies minimal CSS.It contains some of the basic html
+                            elements such as h1, body, lists,forms etc. It also has some links to different pages and
+                            images. The project was about <span class="italic"> The Little Taco Shop Website.</span> The
+                            website can be launched in Chrome, Brave, Edge .etc </p>
+                        <hr>
+
+                    <dt><b>CSS Project</b></dt>
+                    <dd class="p-2">
+                        <a class="hover:opacity-60" href="https://github.com/prudywn/CSSproject.git">@cssProject</a>
+                        <p>This is my final CSS project. Being a styling project, I applied as much CSS as I could to
+                            make the website more appealing. I used a background image, animation, font-styling,
+                            background-color, etc.
+                            The project was about styling <span class="italic"> The Little Taco Shop Website.</span> The
+                            website can be launched in Chrome, Brave, Edge .etc </p>
+                        <hr>
+
+                    <dt><b>TailwindCSS</b></dt>
+                    <dd class="p-2">
+                        <a class="hover:opacity-60"
+                            href="https://github.com/prudywn/ProjectTailwind.git">@tailwindProject</a>
+                        <p>This was my final tailwind project. The project entailed the use of a tailwind config file to
+                            access the inbuilt tailwind utilities. There is also some Javascript incorporated to toggle
+                            the
+                            menu button which appears in small screens. There was use of media queries and classes to
+                            aplly the styles.The project was about styling <span class="italic"> The Little Taco Shop
+                                Website</span> using Tailwind. The
+                            website can be launched in Chrome, Brave, Edge .etc </p>
+                    </dd>
+                    <hr>
+                </dl>
+            </section>
+
+            <section id="about" class="id widescreen:section-min-height tallscreen:section-min-height">
+                <h2 class="mb-4 flex justify-center text-3xl "><strong>ABOUT
+                        ME</strong></h2>
+                <div class="grid">
+                    <div class="item1">
+                        <img src="./Img/Snapchat-2011191677.jpg" alt="Myself">
+                    </div>
+                    <div class="item2 text-fuchsia-400 dark:text-fuchsia-500 text-xl">My name is Prudence Waithira
+                        Ngigi. I am currently 18 years old. I am an alumini of <em>The Maryhill Girls' Highschool.</em>
+                        <br>In my primary school life I've been to three schools the last being my favorite. It was a
+                        girls'
+                        boarding primary school, Catholic Sponsored. Being in a boarding school before highschool helped
+                        me to learn how to be more independent and responsible.
+                    </div>
+
+                    <div class="item3  text-fuchsia-400 dark:text-fuchsia-500 text-xl">
+                        <h3 class="p-3">My Hobbies and Talents: </h3>
+                        <ol class="list-decimal">
+                            <li>I enjoy cooking.I am pretty good at it.</li>
+                            <li>I live for acting. Am good at acting and grab any opportunity I find to act. I acted a
+                                couple of times in school.</li>
+                            <li>I love cycling.</li>
+                            <li>My favorite pass time is watching.</li>
+                        </ol>
+                    </div>
+                    <div class="item4 text-fuchsia-400 dark:text-fuchsia-500 text-xl">
+                        <h3 class="p-3">General stuff: </h3>
+                        <ul class="list-disc">
+                            <li>I am a problem solver. I don't focus on the problem I focus on the solution</li>
+                            <li>I am responsible.</li>
+                            <li>I appreciate getting feedback on anything I have done that I may improve where need be.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item5 text-fuchsia-400 dark:text-fuchsia-500 text-xl">
+                        <p class="m-0 p-0">&#10233; I joined directed mainly because I love learning new things
+                            especially
+                            those related
+                            to
+                            programming and computing. I also joined with the hope of making it through the bootcamp
+                            excellently and getting a paid intership in a tech company.</p>
+                    </div>
+
+                </div>
+            </section>
+            <hr>
+            <aside class="text-fuchsia-300 py-6 text-lg">
+                <details>
+                    <summary class="mb-2"><strong>Just a reminder</strong></summary>
+                    <p class="mb-2"><q>Just One Small Positive Thought In The Morning Can Change Your Whole Day</q>
+
+                        &#8212; <em>Dalai Lama</em>
+                    </p>
+                    <p><q>You cannot cross the sea by merely standing and staring at the water</q>
+                        &#8212; <em>Rabidranath Tagore</em></p>
+                </details>
+
+            </aside>
+
+            <hr>
+            <article id="contact" class="id">
+                <section class="text-slate-300 dark:text-slate-400">
+                    <h2 class="flex justify-center text-xl"><i><b>Contact me</b></i></h2>
+                    <form action="process.php" method="post">
+
+                        <fieldset class="contact__fieldset">
+                            <legend class="offscreen">Send Me A Message</legend>
+                            <p class="paragraph">
+                                <label class="contact__label" for="fname">First Name: </label>
+                                <input class="contact__input" type="text" id="fname" name="name"
+                                    placeholder="Your name..." required>
+                            </p>
+                            <p class="paragraph">
+                                <label class="contact__label" for="lname">Last Name: </label>
+                                <input class="contact__input" type="text" id="lname" name="lname" required
+                                    placeholder="Your name...">
+                            </p>
+                            <p class="paragraph">
+                                <label class="contact__label" for="email">Email: </label>
+                                <input class="contact__input" type="email" id="email" name="=email" required
+                                    placeholder="Your email...">
+                            </p>
+                            <p class="paragraph">
+                                <label class="contact__label" for="date">Date: </label>
+                                <input class="contact__input" type="date" id="date" name="date"
+                                    placeholder="The day of writing..." required>
+                            </p>
+                            <p>
+                                <label class="contact__label" for="message">Message: </label>
+                                <textarea class="contact__textarea" name="message" id="message" cols="30" rows="10"
+                                    placeholder="Your message..."></textarea>
+                        </fieldset>
+                        </p>
+                        <div class="flex justify-evenly">
+                            <button class="contact__button" type="button" value="submit">Send</button>
+                            <button class="contact__button" type="button" value="reset">Reset</button>
+                            <button class="contact__button" type="button" value="cancel">Cancel</button>
+                        </div>
+                    </form>
+                </section>
+
+            </article>
+        </main>
+
+        <footer id="socials" class="id bottom-0 dark:text-slate-900 text-slate-900 pb-6 mt-2 ml-1">
+            <h3 class="flex justify-center"><i><b>Socials</b></i></h3>
+            <section class="max-w-4xl mx-auto">
+                <div class="md:justify-evenly md:flex text-xl">
+                    <p class="p_1"><em>Reach Out To Me via</em></p><br>
+                    <p class="p_2">Email: <br> <a class=" hover:opacity-45"
+                            href="waithesh@gmail.com">waithesh@gmail.com</a></p>
+                    <p class="p_3">Phone: <br>
+                        <a href="0743287965" class=" hover:opacity-45  ">0743287965</a>
+                    </p>
+                    <p class="p_4"> Instagram: <br> <a href="@prudyWN" class=" hover:opacity-45">prudyWN</a></p>
+                    <p class="p_5">Tiktok: <br> <a href="@prudyWN" class=" hover:opacity-45">prudyWN</a></p>
+                    <p class="p_6">Twitter: <br> <a href="@dence" class="hover:opacity-45 ">twit</a></p>
+                </div>
+
+            </section>
+
+
+        </footer>
+    </body>
+
+</html>
