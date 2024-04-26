@@ -201,12 +201,12 @@ nav{
 }
 
 .menu-button::before{
-    transform: translateY(0);
+    transform: translateY(8px);
     transform:rotateX(45deg)
 }
 
 .menu-button::after{
-    transform: translateY(0);
+    transform: translateY(-8px);
     transform: rotateX(-45deg);
 }
 
