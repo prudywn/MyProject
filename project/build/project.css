@@ -194,6 +194,18 @@ nav{
 
 
 /* HARMBURGER BUTTON */
+.menu-button,
+.menu-button::before,
+.menu-button::after{
+    transition: all 2s 0.5s ease-in-out;
+}
+
 .menu-button::before{
-    
+    transform: translateY(0);
+    transform:rotateX(45deg)
+}
+
+.menu-button::after{
+    transform: translateY(0);
+    transform: rotateX(-45deg);
 }

@@ -677,11 +677,11 @@ video {
   }
 
   80% {
-    transform: scaleY(1.2);
+    transform: scaleY(1.0);
   }
 
   100% {
-    transform: scaleY(1);
+    transform: scaleY(0.7);
   }
 }
 
@@ -773,11 +773,6 @@ video {
   padding: 1.5rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -801,18 +796,13 @@ video {
   line-height: 2.25rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -822,6 +812,11 @@ video {
 
 .italic {
   font-style: italic;
+}
+
+.text-fuchsia-300 {
+  --tw-text-opacity: 1;
+  color: rgb(240 171 252 / var(--tw-text-opacity));
 }
 
 .text-fuchsia-500 {
@@ -862,16 +857,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-fuchsia-400 {
-  --tw-text-opacity: 1;
-  color: rgb(232 121 249 / var(--tw-text-opacity));
-}
-
-.text-fuchsia-300 {
-  --tw-text-opacity: 1;
-  color: rgb(240 171 252 / var(--tw-text-opacity));
 }
 
 .transition-all {

@@ -10,8 +10,8 @@ module.exports = {
       keyframes: {
         'open-menu': {
           '0%': { transform: 'scaleY(0)'},
-          '80%': { transform: 'scaleY(1.2)'},
-          '100%': { transform: 'scaleY(1)'},
+          '80%': { transform: 'scaleY(1.0)'},
+          '100%': { transform: 'scaleY(0.7)'},
         },
       },
 
